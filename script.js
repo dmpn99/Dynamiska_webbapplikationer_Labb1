@@ -91,5 +91,5 @@ console.log("Efter: " + name); // Utskrift: Nellie (Globala variabeln är oför�
 
 4. Variabel = Behållare för data.
    Parameter = Namnet vi sätter i funktionens parentes.
-   Argument = De värdet ("Fredrik") vi skickar in när vi kör funktionen.
+   Argument = De värdet ("Fredrik") jag skickar in när jag kör funktionen.
 */
