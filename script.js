@@ -23,7 +23,7 @@ console.log("Efter blocket:" + testVar); // Fungerar
 /* Reflektion:
 Före blocket: Den enda variabeln som programmet inte kraschar av är var -den blir undefined.
 var har Function Scope, det gör att den struntar i blocket{...}. let och const har block scope och
-finns inte tillgängliga utanför blocket.
+är inte tillgängliga utanför blocket.
 
 Inne i blocket: Alla tre variabler fungerar som de ska.
 let och const har block scope, så de är tillgängliga inuti blocket.
@@ -52,7 +52,7 @@ console.log(test);
 
 /* Reflektion: 
 1. Skillnaden mellan == och === är att === kräver samma datatyp,
-    medans == försöker omvandla typerna. 
+    medans == inte bryr sig om typerna. 
 
 2. Med en ternary operator omvandlas värdet till en bool.
    Eftersom undefined är ett "falsy" värde, väljer koden det andra alternativet.
@@ -64,7 +64,7 @@ console.log(test);
 
 //---------------  Övning 4 ----------------
 
-let name = "Nellie"; // Global variabel
+let name = "Nellie"; // Global variabel (tillgänglig överallt)
 
 console.log("Före: " + name); // Utskrift: Nellie
 
