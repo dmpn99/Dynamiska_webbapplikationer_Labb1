@@ -3,11 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!-- <script src="script.js" defer></script> -->
     <title>Document</title>
   </head>
   <body>
-    <!-- Placeringen på script taggen, har betydlse ifall du inte använder attributet defer -->
-    <script src="script.js" defer></script>
     <h1>Testar lite text.....</h1>
+    
+        <!-- Placeringen är viktig för att scriptet ska hitta elementen 
+        på sidan, därför läggs den oftast sist. 
+        Med defer laddas scriptet parallellt, men körs först när sidan är klar. 
+        Se exemplet ovan -->
+        <script src="script.js"></script>
   </body>
 </html>
+
